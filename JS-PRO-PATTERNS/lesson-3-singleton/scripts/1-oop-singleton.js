@@ -17,9 +17,10 @@ class Single {
 }
 
 Single.instance = null;
-console.log(new Single());
+// console.log(new Single());
 
-// const store1 = new Single('test');
+const store1 = new Single('test');
+console.log(store1);
 // store1.addToData();
 // console.log('first instance: ', store1);
 
